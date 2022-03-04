@@ -27,7 +27,7 @@ class Power                                               //creating class with 
     { 
     int result=0;
     Power pow;                                           // creating pow variable of power data-type
-    result=pow.power(6,4);                               // function call by passing 2 parametric values; using F1
-    cout<<"The result of 6^4 is: "<<result;              // Result display
+    result=pow.power(15);                                // function call by passing 1 parametric values and using default parameter ; using F2
+    cout<<"The square of 15 is: "<<result;               // Result display
     return 0;   
     }
