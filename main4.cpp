@@ -5,7 +5,7 @@ using namespace std;
 class Power                                               //creating class with classname as power
 {
     public:
-    double power(double m,int n)                          // function definition with functionname as power
+    double power(double m,int n)                          // function definition with functionname as power; let say F1
     {
     int i, ans=1;
        for(i=1;i<=n;i++)                                  // calculation using loop
@@ -14,7 +14,7 @@ class Power                                               //creating class with 
        }
         return ans;
     }
-    double power(double m)                                // function definition with functionname as power
+    double power(double m)                                // function definition with functionname as power; let say F2
     {                                                     // Concept of function overloading 
         int n=2;
         double a;
@@ -27,7 +27,7 @@ class Power                                               //creating class with 
     { 
     int result=0;
     Power pow;                                           // creating pow variable of power data-type
-    result=pow.power(6,4);                               // function call
+    result=pow.power(6,4);                               // function call by passing 2 parametric values; using F1
     cout<<"The result of 6^4 is: "<<result;              // Result display
     return 0;   
     }
